@@ -25,6 +25,7 @@ ENEMY_HP = 100
 HIT_SCORE = 10
 KILL_SCORE = 100
 MOVEMENT_SPEED = 10
+
 class Bullet(arcade.Sprite):
     def __init__(self, position, velocity, damage):
         ''' 
@@ -33,7 +34,7 @@ class Bullet(arcade.Sprite):
             velocity: (dx, dy) tuple
             damage: int (or float)
         '''
-        super().__init__("assets/bullet.png", 0.06)
+        super().__init__("assets/bullet.png", 0.1)
         (self.center_x, self.center_y) = position
         (self.dx, self.dy) = velocity
         self.damage = damage
@@ -97,7 +98,8 @@ class Window(arcade.Window):
             enemy = Enemy((x,y))
             self.enemy_list.append(enemy)    
         self.total_time = 0.0
-         
+        
+        
 
     def update(self, delta_time):
         if self.current_state == GAME_RUNNING:
@@ -223,7 +225,7 @@ class Window(arcade.Window):
             self.player.change_y = -MOVEMENT_SPEED
         if key == arcade.key.SPACE:
             x = self.player.center_x
-            y = self.player.center_y + 20
+            y = self.player.center_y + 40
             bullet = Bullet((x,y),(0,5),BULLET_DAMAGE)
             self.bullet_list.append(bullet)
 
