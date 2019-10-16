@@ -1,0 +1,38 @@
+Name:   Stephanie Davidson
+Date:   10-16-19
+Project: P05-SpaceShooter
+Peer's repository: https://github.com/msburks/Space-Shooter.git
+
+
+
+What is something you learned by reviewing your peer's project?
+How to make a timer.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+The timer was pretty cool
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+The timer continued to count on the game over screen, so finding a way to stop that.
+ 
+
+What could have been clearer or better commented?
+The only comments were around the timer.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+Not really.
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+Don't use the word 'attempted'.  You didn't attempt, you did it.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+The art was really cool, and you definitly worked to make the code interesting.
+
